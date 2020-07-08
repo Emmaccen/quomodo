@@ -1,0 +1,245 @@
+/* Globals */
+
+:root{
+    --background : #4031B7;
+    --buttonColor : #60CBBE;
+  }
+  * {
+    box-sizing: border-box;
+    transition: .5s all ease;
+    color : whitesmoke;
+  }
+  a {
+      text-decoration: none;
+  }
+  body {
+    margin: 0;
+    font-family: 'Laila';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color : whitesmoke;
+  }
+  .highlight {
+      color : var(--buttonColor);
+  }
+
+  .icon {
+    margin-right: 10px;
+    color : white;
+  }
+
+  .centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .container {
+    width: 80%;
+    margin : auto;
+  }
+
+  .backgroundFix {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .relative {
+    position: relative;
+  }
+  button {
+      border: none;
+      outline: none;
+      background-color: var(--buttonColor);
+      padding : 10px 20px;
+      border-radius: 15px;
+      cursor: pointer;
+  }
+  .relative {
+      position: relative;
+  }
+
+  /* homepage style section */
+
+  .homepageWrapper {
+      position: relative;
+      background-color: var(--background);
+      height: 100vh;
+      width: 100%;
+      color : whitesmoke;
+  }
+
+  .HomeLinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .HomeLinks span {
+      margin: 20px;
+  }
+  
+  .nav {
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+  }
+  .logo {
+      width: 100px;
+      height: 100px;
+  }
+  .linkWrapper {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin : auto;
+  }
+  .links {
+      margin-left: 50px;
+  }
+  .links a {
+      margin-left: 20px;
+  }
+  .actionButtons {
+      display: flex;
+      align-items: center;
+  }
+  .actionButtons * {
+    margin-left: 20px;
+  }
+  .actionButtons button {
+      background-color: transparent;
+      border : 1px solid whitesmoke;
+      cursor: pointer;
+  }
+
+  .divide {
+      display: flex;
+      justify-content: space-between;
+  }
+  .jumbotron {
+      position: absolute;
+      bottom: 100px;
+      left: 50px;
+  }
+  .jumbotron h1 {
+      font-size: 40px;
+  }
+  .jumboDesc {
+      width: 50%;
+  }
+  .sideImage img{
+   width: 400px;
+   height: auto;
+}
+.sideImage span{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color : black;
+}
+
+/* section 2 style section */
+.section2 *, .section3 *, .section4 * {
+    color : #333;
+}
+.heading {
+    width : 50%;
+    margin: auto;
+}
+.heading h1 {
+    margin-bottom: 0px;
+}
+.section2 {
+    margin: 100px 0px;
+}
+.section2 h1 {
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.services {
+    display : grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap : 50px;
+    text-align: center;
+}
+.services .centered {
+    margin-top: 30px;
+}
+.services h3 {
+    margin-bottom: 0px;
+}
+.showcaseBg {
+    background-color: var(--background);
+    border-radius: 50%;
+    padding : 20px;
+}
+
+/* section 3 style section */
+
+.section3 {
+
+}
+.section3 .tenderBoard img{
+    width: 100%;
+    height: 500px;
+    /* add a box shadow later */
+}
+
+.processDesc {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap : 30px;
+    margin : 50px auto;
+    text-align: center;
+}
+
+.section4 {
+    margin: 100px;
+}
+.section4 .barImg {
+    position: absolute;
+    right: 0;top: 0;
+}
+.section4 .barImg img {
+    width: 400px;
+    height: 600px;
+}
+.section4 .sec4Div {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top : 100px;
+    left: 50px;
+    width: 90%;
+    z-index: 2;
+}
+.sec4Div .managementSideImg img {
+    width: 500px;
+    height: 100%;
+}
+.section4 .section4Heading {
+    width: 80%;
+}
+.managementWrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.managementDec {
+    background-color: var(--background);
+    padding : 10px 15px;
+    border-radius: 50%;
+    text-align: center;
+    margin : 10px 0px;
+}
+.mw {
+    margin-left: 10px;
+}
+.mw h4 {
+    margin: 0px;
+}
+.mw p {
+    margin: 0px;
+}
